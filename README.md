@@ -8,3 +8,5 @@ I needed to combine both datasets in order to do some graph work and thought Gra
 - Can be rendered into a picture easily
 - Is human readable
 - Is easily machine parsable
+
+![Metro](https://github.com/OdayMansour/dot-paris-metro/blob/master/neato.png)
