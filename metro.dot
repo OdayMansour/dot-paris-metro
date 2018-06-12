@@ -1,0 +1,1229 @@
+digraph Paris_Metro {
+
+    edge [penwidth="2"]
+    node [shape="circle", fixedsize="true", width="0.15", style="filled", fillcolor="black"]
+
+    chateau_de_vincennes [label="", name="Chateau de Vincennes", x="2.440439978057246", y="48.844456394569114", id="2035-2154"]
+    berault [label="", name="Berault", x="2.429205166348", y="48.84547070758355", id="2067-2116"]
+    saint_mande [label="", name="Saint-Mande", x="2.41947990037451", y="48.84635698889295", id="1725-2470"]
+    porte_de_vincennes [label="", name="Porte de Vincennes", x="2.410140367974107", y="48.8471584794021", id="1751-2429"]
+    nation [label="", name="Nation", x="2.39506230542588", y="48.84847428597437", id="1832-2371"]
+    reuilly_diderot [label="", name="Reuilly-Diderot", x="2.386341706352172", y="48.84730378614119", id="1698-2443"]
+    gare_de_lyon [label="", name="Gare de Lyon", x="2.373014219940096", y="48.84398558201753", id="1955-2210"]
+    bastille [label="", name="Bastille", x="2.369320584925386", y="48.852479422836296", id="2062-2111"]
+    saint_paul_le_marais [label="", name="Saint-Paul (Le Marais)", x="2.360956488661", y="48.855236252795095", id="1642-2522"]
+    hotel_de_ville [label="", name="Hotel de Ville", x="2.351577562994996", y="48.85747798252934", id="1892-2288"]
+    chatelet [label="", name="Chatelet", x="2.347305852747763", y="48.85879919807379", id="2036-2155"]
+    louvre_rivoli [label="", name="Louvre-Rivoli", x="2.341108591634067", y="48.8608062912721", id="1864-2331"]
+    palais_royal_musee_du_louvre [label="", name="Palais-Royal (Musee du Louvre)", x="2.336878397596706", y="48.862829672789964", id="1773-2383"]
+    tuileries [label="", name="Tuileries", x="2.330129877112861", y="48.86434377873391", id="1688-2498"]
+    concorde [label="", name="Concorde", x="2.322943412243542", y="48.866285804583875", id="1980-2170"]
+    champs_elysees_clemenceau [label="", name="Champs-Elysees-Clemenceau", x="2.313545549946741", y="48.86790534489709", id="2083-2544"]
+    franklin_roosevelt [label="", name="Franklin-Roosevelt", x="2.309505157337887", y="48.86869984735294", id="1945-2200"]
+    george_v [label="", name="George V", x="2.300560451248797", y="48.87202380950043", id="1961-2216"]
+    charles_de_gaulle_etoile [label="", name="Charles de Gaulle-Etoile", x="2.295567369745454", y="48.874613927042155", id="2028-2147"]
+    argentine [label="", name="Argentine", x="2.289322589613774", y="48.87559404986667", id="2048-2098"]
+    porte_maillot [label="", name="Porte Maillot", x="2.283162242230229", y="48.87755125180425", id="1755-2433"]
+    les_sablons_jardin_d_acclimatation [label="", name="Les Sablons (Jardin d'acclimatation)", x="2.271686721050983", y="48.88119152058607", id="1856-2323"]
+    pont_de_neuilly [label="", name="Pont de Neuilly", x="2.260515077888117", y="48.88470820132253", id="1803-2342"]
+    esplanade_de_la_defense [label="", name="Esplanade de la Defense", x="2.247932435324862", y="48.88863121777118", id="1933-2258"]
+    la_defense_grande_arche [label="", name="La Defense (Grande Arche)", x="2.237018056395014", y="48.8921870764495", id="1887-2283"]
+    nation [label="", name="Nation", x="2.39506230542588", y="48.84847428597437", id="1833-2338"]
+    avron [label="", name="Avron", x="2.398302344267162", y="48.85151027816436", id="2058-2107"]
+    alexandre_dumas [label="", name="Alexandre-Dumas", x="2.394561944560314", y="48.85637735718154", id="2041-2160"]
+    philippe_auguste [label="", name="Philippe Auguste", x="2.389729852353504", y="48.85846654943374", id="1788-2398"]
+    pere_lachaise [label="", name="Pere-Lachaise", x="2.387607288151709", y="48.86265401909355", id="1784-2394"]
+    menilmontant [label="", name="Menilmontant", x="2.383383250455203", y="48.86680003509802", id="1812-2351"]
+    couronnes [label="", name="Couronnes", x="2.380542585989343", y="48.86909116292499", id="2079-2128"]
+    belleville [label="", name="Belleville", x="2.376702144728945", y="48.872310113783094", id="2087-2548"]
+    colonel_fabien [label="", name="Colonel Fabien", x="2.370811395312745", y="48.87761018741785", id="1978-2168"]
+    jaures [label="", name="Jaures", x="2.370262126660263", y="48.881498595910074", id="1900-2296"]
+    stalingrad [label="", name="Stalingrad", x="2.36939198436133", y="48.884385145353036", id="1674-2484"]
+    la_chapelle [label="", name="La Chapelle", x="2.360491318526145", y="48.88439879515334", id="1910-2235"]
+    barbes_rochechouart [label="", name="Barbes-Rochechouart", x="2.349774443646268", y="48.88343618805934", id="2086-2547"]
+    anvers [label="", name="Anvers", x="2.344130633722553", y="48.88286864756839", id="2046-2096"]
+    pigalle [label="", name="Pigalle", x="2.337081682514974", y="48.882519385636314", id="1791-2401"]
+    blanche [label="", name="Blanche", x="2.331926590885041", y="48.88395857351673", id="2071-2120"]
+    place_de_clichy [label="", name="Place de Clichy", x="2.327839556114741", y="48.88361499223493", id="1795-2405"]
+    rome [label="", name="Rome", x="2.321274926766349", y="48.88222690081934", id="1707-2452"]
+    villiers [label="", name="Villiers", x="2.315176626220464", y="48.881150028474686", id="1629-2509"]
+    monceau [label="", name="Monceau", x="2.309451167991542", y="48.8804494561385", id="1822-2361"]
+    courcelles [label="", name="Courcelles", x="2.303528725370108", y="48.879214134245586", id="1989-2179"]
+    ternes [label="", name="Ternes", x="2.298310375124943", y="48.877972701427545", id="1684-2494"]
+    charles_de_gaulle_etoile [label="", name="Charles de Gaulle-Etoile", x="2.295567369745454", y="48.874613927042155", id="2029-2148"]
+    victor_hugo [label="", name="Victor Hugo", x="2.285335094686169", y="48.86979855646068", id="1694-2504"]
+    porte_dauphine_marechal_de_lattre_de_tassigny [label="", name="Porte Dauphine (Marechal de Lattre de Tassigny)", x="2.277083017052586", y="48.87146657812765", id="1736-2414"]
+    gallieni_parc_de_bagnolet [label="", name="Gallieni (Parc de Bagnolet)", x="2.41669727285771", y="48.865335317260985", id="1949-2204"]
+    porte_de_bagnolet [label="", name="Porte de Bagnolet", x="2.408031037075815", y="48.864600373375616", id="1737-2415"]
+    gambetta [label="", name="Gambetta", x="2.398746593442592", y="48.86516343488148", id="1950-2205"]
+    pere_lachaise [label="", name="Pere-Lachaise", x="2.387607288151709", y="48.86265401909355", id="1785-2395"]
+    rue_saint_maur [label="", name="Rue Saint-Maur", x="2.380797986183677", y="48.864086574750985", id="1728-2471"]
+    parmentier [label="", name="Parmentier", x="2.374581969996412", y="48.865253786054325", id="1779-2389"]
+    republique [label="", name="Republique", x="2.363826143977408", y="48.86750342377884", id="1766-2376"]
+    temple [label="", name="Temple", x="2.361541532068171", y="48.86668268024132", id="1683-2493"]
+    arts_et_metiers [label="", name="Arts-et-Metiers", x="2.356729869173701", y="48.865322711678054", id="2050-2099"]
+    reaumur_sebastopol [label="", name="Reaumur-Sebastopol", x="2.35206831805007", y="48.866340299288545", id="1765-2375"]
+    sentier [label="", name="Sentier", x="2.347516213278753", y="48.86730947497152", id="1662-2542"]
+    bourse [label="", name="Bourse", x="2.340720723674097", y="48.868695977842876", id="2007-2196"]
+    quatre_septembre [label="", name="Quatre Septembre", x="2.336218847521674", y="48.869585243484515", id="1760-2438"]
+    opera [label="", name="Opera", x="2.331989522683248", y="48.8709917839485", id="1846-2313"]
+    havre_caumartin [label="", name="Havre-Caumartin", x="2.327695409630174", y="48.87371340670774", id="1889-2285"]
+    saint_lazare [label="", name="Saint-Lazare", x="2.324574810293918", y="48.87500639805501", id="1722-2467"]
+    europe [label="", name="Europe", x="2.322265213118896", y="48.87877036848683", id="1935-2260"]
+    villiers [label="", name="Villiers", x="2.315176626220464", y="48.881150028474686", id="1630-2510"]
+    malesherbes [label="", name="Malesherbes", x="2.309052264550479", y="48.88289191745413", id="1881-2277"]
+    wagram [label="", name="Wagram", x="2.304674440528396", y="48.883809201233376", id="1634-2514"]
+    pereire [label="", name="Pereire", x="2.297724346480178", y="48.88489625515051", id="1786-2396"]
+    porte_de_champerret [label="", name="Porte de Champerret", x="2.292582314102913", y="48.885793105231", id="1738-2416"]
+    louise_michel [label="", name="Louise Michel", x="2.288083633048504", y="48.88870601977514", id="1862-2329"]
+    anatole_france [label="", name="Anatole-France", x="2.285009502746195", y="48.89208278597479", id="2044-2163"]
+    pont_de_levallois_becon [label="", name="Pont de Levallois-Becon", x="2.279809586693102", y="48.89782106711132", id="1802-2341"]
+    porte_des_lilas [label="", name="Porte des Lilas", x="2.406480156998486", y="48.87717481930547", id="1752-2430"]
+    saint_fargeau [label="", name="Saint-Fargeau", x="2.404514942379104", y="48.872101442131545", id="1718-2463"]
+    pelleport [label="", name="Pelleport", x="2.401561712742541", y="48.86844016327547", id="1783-2393"]
+    gambetta [label="", name="Gambetta", x="2.398746593442592", y="48.86516343488148", id="1659-2539"]
+    porte_de_clignancourt [label="", name="Porte de Clignancourt", x="2.344847748752398", y="48.89740222289809", id="1742-2420"]
+    simplon [label="", name="Simplon", x="2.347765501718976", y="48.89394138802911", id="1668-2478"]
+    marcadet_poissonniers [label="", name="Marcadet-Poissonniers", x="2.349738407022142", y="48.89141683421295", id="1655-2535"]
+    chateau_rouge [label="", name="Chateau Rouge", x="2.349694082202741", y="48.887374910553596", id="2033-2152"]
+    barbes_rochechouart [label="", name="Barbes-Rochechouart", x="2.349774443646268", y="48.88343618805934", id="2061-2110"]
+    gare_du_nord [label="", name="Gare du Nord", x="2.357459346588717", y="48.87985014251205", id="1957-2212"]
+    gare_de_l_est_verdun [label="", name="Gare de l'Est (Verdun)", x="2.357880771925327", y="48.8759910648072", id="1953-2208"]
+    chateau_d_eau [label="", name="Chateau d'Eau", x="2.356044907672176", y="48.872424914488995", id="2034-2153"]
+    strasbourg_saint_denis [label="", name="Strasbourg-Saint-Denis", x="2.354603790697162", y="48.8692241716524", id="1677-2487"]
+    reaumur_sebastopol [label="", name="Reaumur-Sebastopol", x="2.35206831805007", y="48.866340299288545", id="1764-2374"]
+    etienne_marcel [label="", name="Etienne Marcel", x="2.348880652588476", y="48.863807437781254", id="1934-2259"]
+    les_halles [label="", name="Les Halles", x="2.345673828222722", y="48.8623162786956", id="1855-2322"]
+    chatelet [label="", name="Chatelet", x="2.347305852747763", y="48.85879919807379", id="1964-2219"]
+    cite [label="", name="Cite", x="2.347321315727239", y="48.854936376552644", id="1975-2230"]
+    saint_michel [label="", name="Saint-Michel", x="2.343285978923924", y="48.853167984890604", id="1729-2472"]
+    odeon [label="", name="Odeon", x="2.339727781593096", y="48.85230076309423", id="1845-2312"]
+    saint_germain_des_pres [label="", name="Saint-Germain des Pres", x="2.333776136855683", y="48.85371893399261", id="1721-2466"]
+    saint_sulpice [label="", name="Saint-Sulpice", x="2.331256291370013", y="48.851672245619895", id="1733-2411"]
+    saint_placide [label="", name="Saint-Placide", x="2.326792785039299", y="48.84687823795213", id="1731-2442"]
+    montparnasse_bienvenue [label="", name="Montparnasse-Bienvenue", x="2.324397012397453", y="48.84378130483655", id="1824-2363"]
+    vavin [label="", name="Vavin", x="2.329008926235403", y="48.84221841361352", id="1692-2502"]
+    raspail [label="", name="Raspail", x="2.330754192086216", y="48.838964280710556", id="1645-2525"]
+    denfert_rochereau [label="", name="Denfert-Rochereau", x="2.331740130985349", y="48.833450858213496", id="1996-2185"]
+    mouton_duvernet [label="", name="Mouton-Duvernet", x="2.329705012620185", y="48.831112660375325", id="1828-2367"]
+    alesia [label="", name="Alesia", x="2.327164649607824", y="48.82818847631351", id="2040-2159"]
+    porte_d_orleans_general_leclerc [label="", name="Porte d'Orleans (General Leclerc)", x="2.325575636212245", y="48.82341162898738", id="1735-2413"]
+    mairie_de_montrouge [label="", name="Mairie de Montrouge", x="2.319740313298555", y="48.818676409912605", id="4028973-4028974"]
+    bobigny_pablo_picasso [label="", name="Bobigny-Pablo-Picasso", x="2.449189904488852", y="48.90637477027001", id="2089-2550"]
+    bobigny_pantin_raymond_queneau [label="", name="Bobigny-Pantin (Raymond Queneau)", x="2.425326888802467", y="48.89545467304617", id="2072-2121"]
+    eglise_de_pantin [label="", name="Eglise de Pantin", x="2.41331313951059", y="48.89325758997389", id="1932-2257"]
+    hoche [label="", name="Hoche", x="2.402352142536798", y="48.89122859319665", id="1891-2287"]
+    porte_de_pantin [label="", name="Porte de Pantin", x="2.392113697756401", y="48.88850368786184", id="1746-2424"]
+    ourcq [label="", name="Ourcq", x="2.386960017135177", y="48.887134869076554", id="1772-2382"]
+    laumiere [label="", name="Laumiere", x="2.379663077480466", y="48.8852161820946", id="1922-2247"]
+    jaures [label="", name="Jaures", x="2.370262126660263", y="48.881498595910074", id="1901-2297"]
+    stalingrad [label="", name="Stalingrad", x="2.36939198436133", y="48.884385145353036", id="1675-2485"]
+    gare_du_nord [label="", name="Gare du Nord", x="2.357459346588717", y="48.87985014251205", id="1958-2213"]
+    gare_de_l_est_verdun [label="", name="Gare de l'Est (Verdun)", x="2.357880771925327", y="48.8759910648072", id="2076-2125"]
+    jacques_bonsergent [label="", name="Jacques-Bonsergent", x="2.361027466917372", y="48.87080998002082", id="1898-2294"]
+    republique [label="", name="Republique", x="2.363826143977408", y="48.86750342377884", id="1767-2377"]
+    oberkampf [label="", name="Oberkampf", x="2.368410025658025", y="48.864657879612494", id="1843-2310"]
+    richard_lenoir [label="", name="Richard-Lenoir", x="2.371913980089996", y="48.85987362437059", id="1700-2445"]
+    breguet_sabin [label="", name="Breguet-Sabin", x="2.370209338414258", y="48.85614070934924", id="2008-2164"]
+    bastille [label="", name="Bastille", x="2.369320584925386", y="48.852479422836296", id="2063-2112"]
+    quai_de_la_rapee [label="", name="Quai de la Rapee", x="2.365873469406567", y="48.8465154041934", id="1759-2437"]
+    gare_d_austerlitz [label="", name="Gare d'Austerlitz", x="2.365184812004335", y="48.84243679702547", id="1951-2206"]
+    saint_marcel [label="", name="Saint-Marcel", x="2.360967167698855", y="48.83842729696758", id="1641-2521"]
+    campo_formio [label="", name="Campo-Formio", x="2.358823489097101", y="48.83549535538261", id="2017-2136"]
+    place_d_italie [label="", name="Place d'Italie", x="2.35558027407791", y="48.83097267298836", id="1793-2403"]
+    nation [label="", name="Nation", x="2.39506230542588", y="48.84847428597437", id="1834-2339"]
+    picpus [label="", name="Picpus", x="2.401289019827348", y="48.8450615799449", id="1789-2399"]
+    bel_air [label="", name="Bel-Air", x="2.400918538121599", y="48.84133825093756", id="2065-2114"]
+    daumesnil_felix_eboue [label="", name="Daumesnil (Felix Eboue)", x="2.395703289436394", y="48.839549645568674", id="2081-2094"]
+    dugommier [label="", name="Dugommier", x="2.389620011336723", y="48.839041143700065", id="2082-2543"]
+    bercy [label="", name="Bercy", x="2.379554011203435", y="48.840001389548114", id="2068-2117"]
+    quai_de_la_gare [label="", name="Quai de la Gare", x="2.372825721828786", y="48.837045119244316", id="1644-2524"]
+    chevaleret [label="", name="Chevaleret", x="2.368126329061812", y="48.83494772234805", id="1974-2229"]
+    nationale [label="", name="Nationale", x="2.362856399519012", y="48.833216719709846", id="1836-2303"]
+    place_d_italie [label="", name="Place d'Italie", x="2.35558027407791", y="48.83097267298836", id="1794-2404"]
+    corvisart [label="", name="Corvisart", x="2.350414872010464", y="48.82979051369296", id="1987-2177"]
+    glaciere [label="", name="Glaciere", x="2.343511657749776", y="48.831129548026645", id="1962-2217"]
+    saint_jacques [label="", name="Saint-Jacques", x="2.337135190607983", y="48.832900816544466", id="1640-2520"]
+    denfert_rochereau [label="", name="Denfert-Rochereau", x="2.331740130985349", y="48.833450858213496", id="1997-2186"]
+    raspail [label="", name="Raspail", x="2.330754192086216", y="48.838964280710556", id="1763-2409"]
+    edgar_quinet [label="", name="Edgar-Quinet", x="2.326384610792847", y="48.840663229299565", id="1930-2255"]
+    montparnasse_bienvenue [label="", name="Montparnasse-Bienvenue", x="2.324397012397453", y="48.84378130483655", id="1825-2364"]
+    pasteur [label="", name="Pasteur", x="2.312447513065986", y="48.84287127500633", id="1781-2391"]
+    sevres_lecourbe [label="", name="Sevres-Lecourbe", x="2.309531490098375", y="48.84562696673932", id="1665-2475"]
+    cambronne [label="", name="Cambronne", x="2.30296829919196", y="48.84750708110547", id="2016-2135"]
+    la_motte_picquet_grenelle [label="", name="La Motte-Picquet-Grenelle", x="2.298930911748061", y="48.84874166571782", id="1657-2537"]
+    dupleix [label="", name="Dupleix", x="2.293612439913189", y="48.85043454902951", id="1926-2251"]
+    bir_hakeim_grenelle [label="", name="Bir-Hakeim (Grenelle)", x="2.289334532766542", y="48.85394260711305", id="2069-2118"]
+    passy [label="", name="Passy", x="2.285812444134081", y="48.857448690975104", id="1780-2390"]
+    trocadero [label="", name="Trocadero", x="2.286243170691258", y="48.86306502022607", id="1687-2497"]
+    boissiere [label="", name="Boissiere", x="2.290058834931356", y="48.86698311035682", id="2073-2122"]
+    kleber [label="", name="Kleber", x="2.293524290341821", y="48.87164976914353", id="1909-2234"]
+    charles_de_gaulle_etoile [label="", name="Charles de Gaulle-Etoile", x="2.295567369745454", y="48.874613927042155", id="2030-2149"]
+    la_courneuve_8_mai_1945 [label="", name="La Courneuve-8-Mai-1945", x="2.410598613730138", y="48.920785969948675", id="1911-2236"]
+    fort_d_aubervilliers [label="", name="Fort d'Aubervilliers", x="2.404409087427758", y="48.91494975637021", id="1944-2199"]
+    aubervilliers_pantin_4_chemins [label="", name="Aubervilliers Pantin (4 Chemins)", x="2.392287059642348", y="48.903759930170864", id="2055-2104"]
+    porte_de_la_villette [label="", name="Porte de la Villette", x="2.385508387679288", y="48.89738989068259", id="1744-2422"]
+    corentin_cariou [label="", name="Corentin-Cariou", x="2.382522343415364", y="48.89483646840174", id="1985-2175"]
+    crimee [label="", name="Crimee", x="2.377315755595574", y="48.89078896952844", id="2080-2093"]
+    riquet [label="", name="Riquet", x="2.374204012035863", y="48.88826761697049", id="1703-2448"]
+    stalingrad [label="", name="Stalingrad", x="2.36939198436133", y="48.884385145353036", id="1676-2486"]
+    louis_blanc [label="", name="Louis Blanc", x="2.365544319172476", y="48.88128581185832", id="1860-2327"]
+    chateau_landon [label="", name="Chateau Landon", x="2.362160071922951", y="48.878565625799595", id="2085-2546"]
+    gare_de_l_est_verdun [label="", name="Gare de l'Est (Verdun)", x="2.357880771925327", y="48.8759910648072", id="1954-2209"]
+    poissonniere [label="", name="Poissonniere", x="2.349293902476005", y="48.87723631913661", id="1800-2373"]
+    cadet [label="", name="Cadet", x="2.344126030464426", y="48.87589068189371", id="2015-2134"]
+    le_peletier [label="", name="Le Peletier", x="2.34019988438517", y="48.87487434337737", id="1849-2316"]
+    chaussee_d_antin_la_fayette [label="", name="Chaussee d'Antin (La Fayette)", x="2.333451218577799", y="48.87310927430917", id="1971-2226"]
+    opera [label="", name="Opera", x="2.331989522683248", y="48.8709917839485", id="1847-2314"]
+    pyramides [label="", name="Pyramides", x="2.33418954196825", y="48.86590673959416", id="1757-2435"]
+    palais_royal_musee_du_louvre [label="", name="Palais-Royal (Musee du Louvre)", x="2.336878397596706", y="48.862829672789964", id="1774-2384"]
+    pont_neuf [label="", name="Pont Neuf", x="2.342232759368107", y="48.85855382636668", id="1806-2345"]
+    chatelet [label="", name="Chatelet", x="2.347305852747763", y="48.85879919807379", id="1966-2221"]
+    pont_marie_cite_des_arts [label="", name="Pont Marie (Cite des Arts)", x="2.357162571618337", y="48.853575472503586", id="1805-2344"]
+    sully_morland [label="", name="Sully-Morland", x="2.36198514100077", y="48.85123768038418", id="1681-2491"]
+    jussieu [label="", name="Jussieu", x="2.35505026306104", y="48.845950666642075", id="1907-2232"]
+    place_monge_jardin_des_plantes [label="", name="Place Monge (Jardin des Plantes)", x="2.352224728183084", y="48.84286683068266", id="1649-2529"]
+    censier_daubenton [label="", name="Censier-Daubenton", x="2.351739487166927", y="48.8404866526412", id="2020-2139"]
+    les_gobelins [label="", name="Les Gobelins", x="2.352588925635323", y="48.83586348417992", id="1854-2321"]
+    place_d_italie [label="", name="Place d'Italie", x="2.35558027407791", y="48.83097267298836", id="1648-2528"]
+    tolbiac [label="", name="Tolbiac", x="2.357245650758686", y="48.826426010875664", id="1685-2495"]
+    maison_blanche [label="", name="Maison Blanche", x="2.358473883854336", y="48.8224378345855", id="1876-2272"]
+    porte_d_italie [label="", name="Porte d'Italie", x="2.359705216746021", y="48.819223349609054", id="1808-2347"]
+    porte_de_choisy [label="", name="Porte de Choisy", x="2.364531951747296", y="48.81987622104988", id="1740-2418"]
+    porte_d_ivry [label="", name="Porte d'Ivry", x="2.369290587346029", y="48.82135578381408", id="1734-2412"]
+    pierre_et_marie_curie [label="", name="Pierre et Marie Curie", x="2.377267200151936", y="48.81593076304922", id="1790-2400"]
+    mairie_d_ivry [label="", name="Mairie d'Ivry", x="2.383551479649113", y="48.81109919771153", id="1871-2301"]
+    le_kremlin_bicetre [label="", name="Le Kremlin-Bicetre", x="2.362263387127349", y="48.81012995727393", id="1925-2250"]
+    villejuif_leo_lagrange [label="", name="Villejuif-Leo Lagrange", x="2.363953196602166", y="48.804688120911365", id="1639-2519"]
+    villejuif_paul_vaillant_couturier_hopital_paul_brousse [label="", name="Villejuif-Paul Vaillant Couturier (Hopital Paul Brousse)", x="2.36826954143277", y="48.796483082759046", id="1696-2506"]
+    villejuif_louis_aragon [label="", name="Villejuif-Louis Aragon", x="2.367804106975457", y="48.78756279205349", id="1695-2505"]
+    pre_saint_gervais [label="", name="Pre-Saint-Gervais", x="2.398946662455969", y="48.879995794367346", id="1756-2434"]
+    danube [label="", name="Danube", x="2.393445456490355", y="48.881931998728206", id="1635-"]
+    botzaris [label="", name="Botzaris", x="2.389115807376888", y="48.87948177191293", id="2002-2191"]
+    buttes_chaumont [label="", name="Buttes-Chaumont", x="2.381614511939643", y="48.87851411312453", id="2013-2132"]
+    bolivar [label="", name="Bolivar", x="2.374147153839052", y="48.88082126137613", id="2075-2124"]
+    jaures [label="", name="Jaures", x="2.370262126660263", y="48.881498595910074", id="1902-2298"]
+    louis_blanc [label="", name="Louis Blanc", x="2.365544319172476", y="48.88128581185832", id="1861-2328"]
+    place_des_fetes [label="", name="Place des Fetes", x="2.392983964817394", y="48.876949848110215", id="-1797"]
+    balard [label="", name="Balard", x="2.278161671278975", y="48.83593087919467", id="3343334-3343335"]
+    lourmel [label="", name="Lourmel", x="2.282700027239131", y="48.838960939372015", id="3343336-3343337"]
+    boucicaut [label="", name="Boucicaut", x="2.287945766499665", y="48.8410940563496", id="3343338-3343339"]
+    felix_faure [label="", name="Felix Faure", x="2.291912413317875", y="48.842746779792876", id="3343746-3343752"]
+    commerce [label="", name="Commerce", x="2.293951963636534", y="48.84479476461109", id="3343753-3343754"]
+    la_motte_picquet_grenelle [label="", name="La Motte-Picquet-Grenelle", x="2.298930911748061", y="48.84874166571782", id="3343755-3343756"]
+    ecole_militaire [label="", name="Ecole Militaire", x="2.306097403704285", y="48.85468215688774", id="3343757-3343758"]
+    la_tour_maubourg [label="", name="La Tour-Maubourg", x="2.310565960946846", y="48.85772541289345", id="3343759-3343760"]
+    invalides [label="", name="Invalides", x="2.313909577788542", y="48.862364704125895", id="3343761-3343762"]
+    concorde [label="", name="Concorde", x="2.322943412243542", y="48.866285804583875", id="3343763-3343764"]
+    madeleine [label="", name="Madeleine", x="2.326272274027749", y="48.86963317302491", id="3343765-3343766"]
+    opera [label="", name="Opera", x="2.331989522683248", y="48.8709917839485", id="3343767-3343768"]
+    richelieu_drouot [label="", name="Richelieu-Drouot", x="2.339115039269688", y="48.8721523525874", id="3343769-3343770"]
+    grands_boulevards [label="", name="Grands Boulevards", x="2.343154773075233", y="48.87149773935003", id="3343771-3343772"]
+    bonne_nouvelle [label="", name="Bonne Nouvelle", x="2.350497971863092", y="48.87016420090056", id="3343773-3343774"]
+    strasbourg_saint_denis [label="", name="Strasbourg-Saint-Denis", x="2.354603790697162", y="48.8692241716524", id="3343775-3343776"]
+    republique [label="", name="Republique", x="2.363826143977408", y="48.86750342377884", id="3343777-3343778"]
+    filles_du_calvaire [label="", name="Filles du Calvaire", x="2.366661094716491", y="48.8632579449661", id="3343779-3343780"]
+    saint_sebastien_froissart [label="", name="Saint-Sebastien-Froissart", x="2.367210866411708", y="48.861168865487805", id="3343781-3343782"]
+    chemin_vert [label="", name="Chemin Vert", x="2.368108290701383", y="48.85742003754715", id="3343783-3343784"]
+    bastille [label="", name="Bastille", x="2.369320584925386", y="48.852479422836296", id="3343785-3343786"]
+    ledru_rollin [label="", name="Ledru-Rollin", x="2.376118773339345", y="48.851271126365226", id="3343787-3343788"]
+    faidherbe_chaligny [label="", name="Faidherbe-Chaligny", x="2.384092210066296", y="48.850177861900356", id="3343789-3343790"]
+    reuilly_diderot [label="", name="Reuilly-Diderot", x="2.386341706352172", y="48.84730378614119", id="3343791-3343792"]
+    montgallet [label="", name="Montgallet", x="2.39007511282003", y="48.844408672078906", id="3343793-3343794"]
+    daumesnil_felix_eboue [label="", name="Daumesnil (Felix Eboue)", x="2.395703289436394", y="48.839549645568674", id="3343795-3343796"]
+    michel_bizot [label="", name="Michel Bizot", x="2.402333165917444", y="48.83711700699553", id="3343797-3343798"]
+    porte_doree [label="", name="Porte Doree", x="2.405383210626771", y="48.8347851580814", id="3343799-3343800"]
+    porte_de_charenton [label="", name="Porte de Charenton", x="2.401448054218978", y="48.83316292950388", id="3343801-3343802"]
+    liberte [label="", name="Liberte", x="2.406742225927992", y="48.82605499654801", id="3343803-3343804"]
+    charenton_ecoles [label="", name="Charenton-Ecoles", x="2.413737517516731", y="48.82159576732173", id="3343805-3343806"]
+    ecole_veterinaire_de_maisons_alfort [label="", name="Ecole Veterinaire de Maisons-Alfort", x="2.422376142845623", y="48.814803007000464", id="3343807-3343808"]
+    maisons_alfort_stade [label="", name="Maisons-Alfort-Stade", x="2.434509895933692", y="48.809144360936045", id="3343809-3343810"]
+    maisons_alfort_les_juilliottes [label="", name="Maisons-Alfort-Les Juilliottes", x="2.446927484242136", y="48.802637690718086", id="3343811-3343812"]
+    creteil_l_echat_hopital_henri_mondor [label="", name="Creteil-L'Echat (Hopital Henri Mondor)", x="2.449433175686986", y="48.796740766583056", id="3343813-3343814"]
+    creteil_universite [label="", name="Creteil-Universite", x="2.450453177915302", y="48.78997831034893", id="3343815-3343816"]
+    creteil_prefecture_hotel_de_ville [label="", name="Creteil-Prefecture (Hotel de Ville)", x="2.459368396259053", y="48.77990531695967", id="3343817-3343818"]
+    pointe_du_lac [label="", name="Pointe du Lac", x="2.464564993211323", y="48.768715125271434", id="3343819-3343825"]
+    pont_de_sevres [label="", name="Pont de Sevres", x="2.230799591317221", y="48.82967484383875", id="1804-2343"]
+    billancourt [label="", name="Billancourt", x="2.238639348575401", y="48.832110560110216", id="2088-2549"]
+    marcel_sembat [label="", name="Marcel Sembat", x="2.243840592379737", y="48.83370884910397", id="1884-2280"]
+    porte_de_saint_cloud [label="", name="Porte de Saint-Cloud", x="2.257122229845438", y="48.83796121353705", id="1747-2425"]
+    exelmans [label="", name="Exelmans", x="2.260032902212424", y="48.84293869586254", id="1936-2261"]
+    michel_ange_molitor [label="", name="Michel-Ange-Molitor", x="2.261745124963672", y="48.845058172313735", id="1816-2355"]
+    michel_ange_auteuil [label="", name="Michel-Ange-Auteuil", x="2.264082030746222", y="48.84789565020842", id="1814-2353"]
+    jasmin [label="", name="Jasmin", x="2.26817674943596", y="48.85250409061289", id="1899-2295"]
+    ranelagh [label="", name="Ranelagh", x="2.270109138941893", y="48.855485050404425", id="1762-2440"]
+    la_muette [label="", name="La Muette", x="2.27415463108692", y="48.85804605629201", id="1917-2242"]
+    rue_de_la_pompe_avenue_georges_mandel [label="", name="Rue de la Pompe (Avenue Georges Mandel)", x="2.278112558447475", y="48.86397444578292", id="1708-2453"]
+    trocadero [label="", name="Trocadero", x="2.286243170691258", y="48.86306502022607", id="1637-2517"]
+    iena [label="", name="Iena", x="2.294162018108232", y="48.864794065815566", id="1895-2291"]
+    alma_marceau [label="", name="Alma-Marceau", x="2.300991003495585", y="48.86476684497177", id="2043-2162"]
+    franklin_roosevelt [label="", name="Franklin-Roosevelt", x="2.309505157337887", y="48.86869984735294", id="1946-2201"]
+    saint_philippe_du_roule [label="", name="Saint-Philippe du Roule", x="2.310038344619937", y="48.87242238365101", id="1730-2441"]
+    miromesnil [label="", name="Miromesnil", x="2.314606321619312", y="48.87370952773764", id="1819-2358"]
+    saint_augustin [label="", name="Saint-Augustin", x="2.321361928104079", y="48.87455838471093", id="1715-2460"]
+    havre_caumartin [label="", name="Havre-Caumartin", x="2.327695409630174", y="48.87371340670774", id="1890-2286"]
+    chaussee_d_antin_la_fayette [label="", name="Chaussee d'Antin (La Fayette)", x="2.333451218577799", y="48.87310927430917", id="1972-2227"]
+    richelieu_drouot [label="", name="Richelieu-Drouot", x="2.339115039269688", y="48.8721523525874", id="1702-2447"]
+    grands_boulevards [label="", name="Grands Boulevards", x="2.343154773075233", y="48.87149773935003", id="1712-2457"]
+    bonne_nouvelle [label="", name="Bonne Nouvelle", x="2.350497971863092", y="48.87016420090056", id="2001-2190"]
+    strasbourg_saint_denis [label="", name="Strasbourg-Saint-Denis", x="2.354603790697162", y="48.8692241716524", id="1678-2488"]
+    republique [label="", name="Republique", x="2.363826143977408", y="48.86750342377884", id="1647-2527"]
+    oberkampf [label="", name="Oberkampf", x="2.368410025658025", y="48.864657879612494", id="1844-2311"]
+    saint_ambroise [label="", name="Saint-Ambroise", x="2.37473343128132", y="48.86101925991959", id="1714-2459"]
+    voltaire_leon_blum [label="", name="Voltaire (Leon Blum)", x="2.38071878585627", y="48.85745372268132", id="1633-2513"]
+    charonne [label="", name="Charonne", x="2.385563480822886", y="48.85458049908102", id="2032-2151"]
+    rue_des_boulets [label="", name="Rue des Boulets", x="2.389378127918613", y="48.85231542739917", id="1709-2454"]
+    nation [label="", name="Nation", x="2.39506230542588", y="48.84847428597437", id="1651-2531"]
+    buzenval [label="", name="Buzenval", x="2.401022270517142", y="48.851812133001964", id="2014-2133"]
+    maraichers [label="", name="Maraichers", x="2.406089161879023", y="48.85272511927084", id="1882-2278"]
+    porte_de_montreuil [label="", name="Porte de Montreuil", x="2.41062642573733", y="48.853543916083595", id="1745-2423"]
+    robespierre [label="", name="Robespierre", x="2.422983216145875", y="48.855726428633155", id="1704-2449"]
+    croix_de_chavaux_jacques_duclos [label="", name="Croix-de-Chavaux (Jacques Duclos)", x="2.435555715694056", y="48.85796559116602", id="1993-2183"]
+    mairie_de_montreuil [label="", name="Mairie de Montreuil", x="2.441310941253409", y="48.861936914133", id="1873-2269"]
+    boulogne_pont_de_saint_cloud [label="", name="Boulogne Pont de Saint-Cloud", x="2.228536981504942", y="48.840745015226894", id="2005-2194"]
+    boulogne_jean_jaures [label="", name="Boulogne-Jean-Jaures", x="2.238887325790711", y="48.84200534728089", id="2004-2193"]
+    porte_d_auteuil [label="", name="Porte d'Auteuil", x="2.257744680376012", y="48.84797154059771", id="8433-2346"]
+    michel_ange_molitor [label="", name="Michel-Ange-Molitor", x="2.261745124963672", y="48.845058172313735", id="1817-"]
+    chardon_lagache [label="", name="Chardon-Lagache", x="2.266441543081952", y="48.84520470358954", id="2026-"]
+    mirabeau [label="", name="Mirabeau", x="2.272763753316159", y="48.847131008196236", id="1818-"]
+    javel_andre_citroen [label="", name="Javel-Andre-Citroen", x="2.277711739827638", y="48.846123666874924", id="1903-2299"]
+    charles_michels [label="", name="Charles Michels", x="2.285999223421597", y="48.84653463673933", id="2031-2150"]
+    avenue_emile_zola [label="", name="Avenue Emile-Zola", x="2.295420478027581", y="48.84701958188098", id="2057-2106"]
+    la_motte_picquet_grenelle [label="", name="La Motte-Picquet-Grenelle", x="2.298930911748061", y="48.84874166571782", id="1916-2241"]
+    segur [label="", name="Segur", x="2.307402240619641", y="48.84706613315245", id="1661-2541"]
+    duroc [label="", name="Duroc", x="2.317005235737245", y="48.846989106139524", id="1927-2252"]
+    vaneau [label="", name="Vaneau", x="2.32125786290546", y="48.8488163724703", id="1690-2500"]
+    sevres_babylone [label="", name="Sevres-Babylone", x="2.326488473969165", y="48.851192349321856", id="1666-2476"]
+    mabillon [label="", name="Mabillon", x="2.335502053090325", y="48.85301676792474", id="1867-2334"]
+    odeon [label="", name="Odeon", x="2.339727781593096", y="48.85230076309423", id="1653-2533"]
+    cluny_la_sorbonne [label="", name="Cluny-La Sorbonne", x="2.344273345421351", y="48.851050282314304", id="1977-2167"]
+    maubert_mutualite [label="", name="Maubert-Mutualite", x="2.348054290484543", y="48.85012732379643", id="1811-2350"]
+    cardinal_lemoine [label="", name="Cardinal-Lemoine", x="2.351623256378513", y="48.84665685125004", id="2018-2137"]
+    jussieu [label="", name="Jussieu", x="2.35505026306104", y="48.845950666642075", id="1908-2233"]
+    gare_d_austerlitz [label="", name="Gare d'Austerlitz", x="2.365184812004335", y="48.84243679702547", id="1952-2207"]
+    eglise_d_auteuil [label="", name="Eglise d'Auteuil", x="2.269135872730268", y="48.84715005570977", id="-2256"]
+    michel_ange_auteuil [label="", name="Michel-Ange-Auteuil", x="2.264082030746222", y="48.84789565020842", id="-2354"]
+    mairie_des_lilas [label="", name="Mairie des Lilas", x="2.416479643671439", y="48.8797612539972", id="1875-2271"]
+    porte_des_lilas [label="", name="Porte des Lilas", x="2.406480156998486", y="48.87717481930547", id="1753-2431"]
+    telegraphe [label="", name="Telegraphe", x="2.398867593898875", y="48.875474456665465", id="1682-2492"]
+    place_des_fetes [label="", name="Place des Fetes", x="2.392983964817394", y="48.876949848110215", id="1798-2408"]
+    jourdain [label="", name="Jourdain", x="2.389415032035528", y="48.87511181695599", id="1905-2266"]
+    pyrenees [label="", name="Pyrenees", x="2.385316215101792", y="48.87388185415816", id="1758-2436"]
+    belleville [label="", name="Belleville", x="2.376702144728945", y="48.872310113783094", id="2066-2115"]
+    goncourt_hopital_saint_louis [label="", name="Goncourt (Hopital Saint-Louis)", x="2.371094839731201", y="48.86995751270301", id="1963-2218"]
+    republique [label="", name="Republique", x="2.363826143977408", y="48.86750342377884", id="967988-967989"]
+    arts_et_metiers [label="", name="Arts-et-Metiers", x="2.356729869173701", y="48.865322711678054", id="2051-2100"]
+    rambuteau [label="", name="Rambuteau", x="2.353495740128163", y="48.861204990323024", id="1761-2439"]
+    hotel_de_ville [label="", name="Hotel de Ville", x="2.351577562994996", y="48.85747798252934", id="1893-2289"]
+    chatelet [label="", name="Chatelet", x="2.347305852747763", y="48.85879919807379", id="1965-2220"]
+    mairie_d_issy [label="", name="Mairie d'Issy", x="2.273041525142415", y="48.824105030688976", id="1870-2337"]
+    corentin_celton [label="", name="Corentin-Celton", x="2.279411682050421", y="48.82708544889643", id="1986-2176"]
+    porte_de_versailles [label="", name="Porte de Versailles", x="2.288022141100325", y="48.83244909914335", id="1750-2428"]
+    convention [label="", name="Convention", x="2.296630343233871", y="48.83730749458223", id="1984-2174"]
+    vaugirard_adolphe_cherioux [label="", name="Vaugirard (Adolphe Cherioux)", x="2.301107514879988", y="48.83951658539453", id="1691-2501"]
+    volontaires [label="", name="Volontaires", x="2.307948679336751", y="48.84150552236795", id="1632-2512"]
+    pasteur [label="", name="Pasteur", x="2.312447513065986", y="48.84287127500633", id="1782-2392"]
+    falguiere [label="", name="Falguiere", x="2.317852783041332", y="48.84447014129586", id="1938-2263"]
+    montparnasse_bienvenue [label="", name="Montparnasse-Bienvenue", x="2.324397012397453", y="48.84378130483655", id="1826-2365"]
+    notre_dame_des_champs [label="", name="Notre-Dame des Champs", x="2.328778026901662", y="48.84494263252667", id="1842-2309"]
+    rennes [label="", name="Rennes", x="2.327782127147534", y="48.848457848541784", id="1646-2526"]
+    sevres_babylone [label="", name="Sevres-Babylone", x="2.326488473969165", y="48.851192349321856", id="1667-2477"]
+    rue_du_bac [label="", name="Rue du Bac", x="2.325712422170927", y="48.85555094016533", id="1710-2455"]
+    solferino [label="", name="Solferino", x="2.323154855841107", y="48.85851112987378", id="1669-2479"]
+    assemblee_nationale [label="", name="Assemblee Nationale", x="2.320998191954085", y="48.860786963526714", id="2052-2101"]
+    concorde [label="", name="Concorde", x="2.322943412243542", y="48.866285804583875", id="1982-2172"]
+    madeleine [label="", name="Madeleine", x="2.326272274027749", y="48.86963317302491", id="1869-2336"]
+    saint_lazare [label="", name="Saint-Lazare", x="2.324574810293918", y="48.87500639805501", id="1723-2468"]
+    trinite_d_estienne_d_orves [label="", name="Trinite-d'Estienne d'Orves", x="2.332543027297523", y="48.87631796226447", id="1686-2496"]
+    notre_dame_de_lorette [label="", name="Notre-Dame de Lorette", x="2.337886489069273", y="48.87602621160853", id="1841-2308"]
+    saint_georges [label="", name="Saint-Georges", x="2.337595082820351", y="48.87842525762863", id="1720-2465"]
+    pigalle [label="", name="Pigalle", x="2.337081682514974", y="48.882519385636314", id="1792-2402"]
+    abbesses [label="", name="Abbesses", x="2.337949777055663", y="48.88459420803534", id="2037-2156"]
+    lamarck_caulaincourt [label="", name="Lamarck-Caulaincourt", x="2.338760649199277", y="48.88967407118814", id="1920-2245"]
+    jules_joffrin [label="", name="Jules Joffrin", x="2.34465700412862", y="48.892439590482105", id="1906-2267"]
+    marcadet_poissonniers [label="", name="Marcadet-Poissonniers", x="2.349738407022142", y="48.89141683421295", id="1883-2279"]
+    marx_dormoy [label="", name="Marx-Dormoy", x="2.359995766405675", y="48.89048545384733", id="1886-2282"]
+    porte_de_la_chapelle [label="", name="Porte de la Chapelle", x="2.359507868815594", y="48.897245288093046", id="1743-2421"]
+    front_populaire [label="", name="Front Populaire", x="2.365920319400959", y="48.90656714598029", id="3901291-3901292"]
+    chatillon_montrouge [label="", name="Chatillon Montrouge", x="2.301678555458344", y="48.81074648857956", id="1969-2224"]
+    malakoff_rue_etienne_dolet [label="", name="Malakoff-Rue Etienne Dolet", x="2.297077798334658", y="48.81530753120822", id="1880-2276"]
+    malakoff_plateau_de_vanves [label="", name="Malakoff-Plateau de Vanves", x="2.298464191970636", y="48.822583706837726", id="1879-2275"]
+    porte_de_vanves [label="", name="Porte de Vanves", x="2.305534669653895", y="48.82779554349536", id="1749-2427"]
+    plaisance [label="", name="Plaisance", x="2.314122323470855", y="48.8318256495863", id="1799-2372"]
+    pernety [label="", name="Pernety", x="2.31807828549193", y="48.83393639265079", id="1787-2397"]
+    gaite [label="", name="Gaite", x="2.322491749824627", y="48.83863164624487", id="1948-2203"]
+    montparnasse_bienvenue [label="", name="Montparnasse-Bienvenue", x="2.324397012397453", y="48.84378130483655", id="1827-2366"]
+    duroc [label="", name="Duroc", x="2.317005235737245", y="48.846989106139524", id="1928-2253"]
+    saint_francois_xavier [label="", name="Saint-Francois-Xavier", x="2.314408121496151", y="48.85144170564173", id="1719-2464"]
+    varenne [label="", name="Varenne", x="2.315056637317088", y="48.85687137924918", id="1638-2518"]
+    invalides [label="", name="Invalides", x="2.313909577788542", y="48.862364704125895", id="1897-2293"]
+    champs_elysees_clemenceau [label="", name="Champs-Elysees-Clemenceau", x="2.313545549946741", y="48.86790534489709", id="2025-2144"]
+    miromesnil [label="", name="Miromesnil", x="2.314606321619312", y="48.87370952773764", id="1820-2359"]
+    saint_lazare [label="", name="Saint-Lazare", x="2.324574810293918", y="48.87500639805501", id="1724-2469"]
+    liege [label="", name="Liege", x="2.327022200889503", y="48.879634760656806", id="1858-2325"]
+    place_de_clichy [label="", name="Place de Clichy", x="2.327839556114741", y="48.88361499223493", id="1796-2406"]
+    la_fourche [label="", name="La Fourche", x="2.325779674806892", y="48.88718394686578", id="1656-2536"]
+    guy_moquet [label="", name="Guy-Moquet", x="2.327428458503176", y="48.89282885338917", id="1888-2284"]
+    porte_de_saint_ouen [label="", name="Porte de Saint-Ouen", x="2.328942812779894", y="48.89737479552952", id="1748-2426"]
+    garibaldi [label="", name="Garibaldi", x="2.33183083796241", y="48.90609405024862", id="1959-2214"]
+    mairie_de_saint_ouen [label="", name="Mairie de Saint-Ouen", x="2.333924890479715", y="48.911964897880885", id="1874-2270"]
+    carrefour_pleyel [label="", name="Carrefour-Pleyel", x="2.343305930512597", y="48.919573074058526", id="1692060-1692061"]
+    saint_denis___porte_de_paris [label="", name="Saint-Denis - Porte de Paris", x="2.356035794172797", y="48.92993588967869", id="1717-2462"]
+    basilique_de_saint_denis [label="", name="Basilique de Saint-Denis", x="2.359398261032672", y="48.93652685258673", id="1716-2461"]
+    saint_denis_universite [label="", name="Saint-Denis-Universite", x="2.364541763486513", y="48.945845657765744", id="140078-140079"]
+    brochant [label="", name="Brochant", x="2.320174755787804", y="48.89058718660406", id="2009-2165"]
+    porte_de_clichy [label="", name="Porte de Clichy", x="2.313772158769625", y="48.89425226224654", id="1741-2419"]
+    mairie_de_clichy [label="", name="Mairie de Clichy", x="2.305924149869319", y="48.903330094573725", id="1872-2268"]
+    gabriel_peri [label="", name="Gabriel-Peri", x="2.294685111702555", y="48.9163823099221", id="1947-2202"]
+    les_agnettes [label="", name="Les Agnettes", x="2.286279577529783", y="48.92310377966602", id="1662795-1662796"]
+    asnieres_gennevilliers_les_courtilles [label="", name="Asnieres-Gennevilliers Les Courtilles", x="2.284174448283296", y="48.93075700333628", id="1662797-1662798"]
+    saint_lazare [label="", name="Saint-Lazare", x="2.324574810293918", y="48.87500639805501", id="1166840-1166841"]
+    madeleine [label="", name="Madeleine", x="2.326272274027749", y="48.86963317302491", id="1166838-1166839"]
+    pyramides [label="", name="Pyramides", x="2.33418954196825", y="48.86590673959416", id="6129304-6129305"]
+    chatelet [label="", name="Chatelet", x="2.347305852747763", y="48.85879919807379", id="1166834-1166835"]
+    gare_de_lyon [label="", name="Gare de Lyon", x="2.373014219940096", y="48.84398558201753", id="1166832-1166833"]
+    bercy [label="", name="Bercy", x="2.379554011203435", y="48.840001389548114", id="1166830-1166831"]
+    cour_saint_emilion [label="", name="Cour Saint-Emilion", x="2.386632402066985", y="48.83333855925167", id="1166828-1166829"]
+    bibliotheque_francois_mitterrand [label="", name="Bibliotheque-Francois Mitterrand", x="2.375748144341913", y="48.829990281683564", id="1166826-1166827"]
+    olympiades [label="", name="Olympiades", x="2.368032647756258", y="48.82727083603918", id="1166824-1166825"]
+
+    // Line 1
+    edge [color="#FFBE00"];
+    // chateau_de_vincennes -> la_defense_grande_arche
+    chateau_de_vincennes -> berault
+    berault -> saint_mande
+    saint_mande -> porte_de_vincennes
+    porte_de_vincennes -> nation
+    nation -> reuilly_diderot
+    reuilly_diderot -> gare_de_lyon
+    gare_de_lyon -> bastille
+    bastille -> saint_paul_le_marais
+    saint_paul_le_marais -> hotel_de_ville
+    hotel_de_ville -> chatelet
+    chatelet -> louvre_rivoli
+    louvre_rivoli -> palais_royal_musee_du_louvre
+    palais_royal_musee_du_louvre -> tuileries
+    tuileries -> concorde
+    concorde -> champs_elysees_clemenceau
+    champs_elysees_clemenceau -> franklin_roosevelt
+    franklin_roosevelt -> george_v
+    george_v -> charles_de_gaulle_etoile
+    charles_de_gaulle_etoile -> argentine
+    argentine -> porte_maillot
+    porte_maillot -> les_sablons_jardin_d_acclimatation
+    les_sablons_jardin_d_acclimatation -> pont_de_neuilly
+    pont_de_neuilly -> esplanade_de_la_defense
+    esplanade_de_la_defense -> la_defense_grande_arche
+    // la_defense_grande_arche -> chateau_de_vincennes
+    berault -> chateau_de_vincennes
+    saint_mande -> berault
+    porte_de_vincennes -> saint_mande
+    nation -> porte_de_vincennes
+    reuilly_diderot -> nation
+    gare_de_lyon -> reuilly_diderot
+    bastille -> gare_de_lyon
+    saint_paul_le_marais -> bastille
+    hotel_de_ville -> saint_paul_le_marais
+    chatelet -> hotel_de_ville
+    louvre_rivoli -> chatelet
+    palais_royal_musee_du_louvre -> louvre_rivoli
+    tuileries -> palais_royal_musee_du_louvre
+    concorde -> tuileries
+    champs_elysees_clemenceau -> concorde
+    franklin_roosevelt -> champs_elysees_clemenceau
+    george_v -> franklin_roosevelt
+    charles_de_gaulle_etoile -> george_v
+    argentine -> charles_de_gaulle_etoile
+    porte_maillot -> argentine
+    les_sablons_jardin_d_acclimatation -> porte_maillot
+    pont_de_neuilly -> les_sablons_jardin_d_acclimatation
+    esplanade_de_la_defense -> pont_de_neuilly
+    la_defense_grande_arche -> esplanade_de_la_defense
+
+    // Line 2
+    edge [color="#0055C8"];
+    // nation -> porte_dauphine_marechal_de_lattre_de_tassigny
+    nation -> avron
+    avron -> alexandre_dumas
+    alexandre_dumas -> philippe_auguste
+    philippe_auguste -> pere_lachaise
+    pere_lachaise -> menilmontant
+    menilmontant -> couronnes
+    couronnes -> belleville
+    belleville -> colonel_fabien
+    colonel_fabien -> jaures
+    jaures -> stalingrad
+    stalingrad -> la_chapelle
+    la_chapelle -> barbes_rochechouart
+    barbes_rochechouart -> anvers
+    anvers -> pigalle
+    pigalle -> blanche
+    blanche -> place_de_clichy
+    place_de_clichy -> rome
+    rome -> villiers
+    villiers -> monceau
+    monceau -> courcelles
+    courcelles -> ternes
+    ternes -> charles_de_gaulle_etoile
+    charles_de_gaulle_etoile -> victor_hugo
+    victor_hugo -> porte_dauphine_marechal_de_lattre_de_tassigny
+    // porte_dauphine_marechal_de_lattre_de_tassigny -> nation
+    avron -> nation
+    alexandre_dumas -> avron
+    philippe_auguste -> alexandre_dumas
+    pere_lachaise -> philippe_auguste
+    menilmontant -> pere_lachaise
+    couronnes -> menilmontant
+    belleville -> couronnes
+    colonel_fabien -> belleville
+    jaures -> colonel_fabien
+    stalingrad -> jaures
+    la_chapelle -> stalingrad
+    barbes_rochechouart -> la_chapelle
+    anvers -> barbes_rochechouart
+    pigalle -> anvers
+    blanche -> pigalle
+    place_de_clichy -> blanche
+    rome -> place_de_clichy
+    villiers -> rome
+    monceau -> villiers
+    courcelles -> monceau
+    ternes -> courcelles
+    charles_de_gaulle_etoile -> ternes
+    victor_hugo -> charles_de_gaulle_etoile
+    porte_dauphine_marechal_de_lattre_de_tassigny -> victor_hugo
+
+
+    // Line 3
+    edge [color="#6E6E00"];
+    // gallieni_parc_de_bagnolet -> pont_de_levallois_becon
+    gallieni_parc_de_bagnolet -> porte_de_bagnolet
+    porte_de_bagnolet -> gambetta
+    gambetta -> pere_lachaise
+    pere_lachaise -> rue_saint_maur
+    rue_saint_maur -> parmentier
+    parmentier -> republique
+    republique -> temple
+    temple -> arts_et_metiers
+    arts_et_metiers -> reaumur_sebastopol
+    reaumur_sebastopol -> sentier
+    sentier -> bourse
+    bourse -> quatre_septembre
+    quatre_septembre -> opera
+    opera -> havre_caumartin
+    havre_caumartin -> saint_lazare
+    saint_lazare -> europe
+    europe -> villiers
+    villiers -> malesherbes
+    malesherbes -> wagram
+    wagram -> pereire
+    pereire -> porte_de_champerret
+    porte_de_champerret -> louise_michel
+    louise_michel -> anatole_france
+    anatole_france -> pont_de_levallois_becon
+    // pont_de_levallois_becon -> gallieni_parc_de_bagnolet
+    porte_de_bagnolet -> gallieni_parc_de_bagnolet
+    gambetta -> porte_de_bagnolet
+    pere_lachaise -> gambetta
+    rue_saint_maur -> pere_lachaise
+    parmentier -> rue_saint_maur
+    republique -> parmentier
+    temple -> republique
+    arts_et_metiers -> temple
+    reaumur_sebastopol -> arts_et_metiers
+    sentier -> reaumur_sebastopol
+    bourse -> sentier
+    quatre_septembre -> bourse
+    opera -> quatre_septembre
+    havre_caumartin -> opera
+    saint_lazare -> havre_caumartin
+    europe -> saint_lazare
+    villiers -> europe
+    malesherbes -> villiers
+    wagram -> malesherbes
+    pereire -> wagram
+    porte_de_champerret -> pereire
+    louise_michel -> porte_de_champerret
+    anatole_france -> louise_michel
+    pont_de_levallois_becon -> anatole_france
+
+    // Line 3b
+    edge [color="#82C8E6"];
+    // porte_des_lilas -> gambetta
+    porte_des_lilas -> saint_fargeau
+    saint_fargeau -> pelleport
+    pelleport -> gambetta
+    // gambetta -> saint_fargeau
+    saint_fargeau -> porte_des_lilas
+    pelleport -> saint_fargeau
+    gambetta -> pelleport
+
+    // Line 4
+    edge [color="#A0006E"];
+    // porte_de_clignancourt -> mairie_de_montrouge
+    porte_de_clignancourt -> simplon
+    simplon -> marcadet_poissonniers
+    marcadet_poissonniers -> chateau_rouge
+    chateau_rouge -> barbes_rochechouart
+    barbes_rochechouart -> gare_du_nord
+    gare_du_nord -> gare_de_l_est_verdun
+    gare_de_l_est_verdun -> chateau_d_eau
+    chateau_d_eau -> strasbourg_saint_denis
+    strasbourg_saint_denis -> reaumur_sebastopol
+    reaumur_sebastopol -> etienne_marcel
+    etienne_marcel -> les_halles
+    les_halles -> chatelet
+    chatelet -> cite
+    cite -> saint_michel
+    saint_michel -> odeon
+    odeon -> saint_germain_des_pres
+    saint_germain_des_pres -> saint_sulpice
+    saint_sulpice -> saint_placide
+    saint_placide -> montparnasse_bienvenue
+    montparnasse_bienvenue -> vavin
+    vavin -> raspail
+    raspail -> denfert_rochereau
+    denfert_rochereau -> mouton_duvernet
+    mouton_duvernet -> alesia
+    alesia -> porte_d_orleans_general_leclerc
+    porte_d_orleans_general_leclerc -> mairie_de_montrouge
+    // mairie_de_montrouge -> porte_de_clignancourt
+    simplon -> porte_de_clignancourt
+    marcadet_poissonniers -> simplon
+    chateau_rouge -> marcadet_poissonniers
+    barbes_rochechouart -> chateau_rouge
+    gare_du_nord -> barbes_rochechouart
+    gare_de_l_est_verdun -> gare_du_nord
+    chateau_d_eau -> gare_de_l_est_verdun
+    strasbourg_saint_denis -> chateau_d_eau
+    reaumur_sebastopol -> strasbourg_saint_denis
+    etienne_marcel -> reaumur_sebastopol
+    les_halles -> etienne_marcel
+    chatelet -> les_halles
+    cite -> chatelet
+    saint_michel -> cite
+    odeon -> saint_michel
+    saint_germain_des_pres -> odeon
+    saint_sulpice -> saint_germain_des_pres
+    saint_placide -> saint_sulpice
+    montparnasse_bienvenue -> saint_placide
+    vavin -> montparnasse_bienvenue
+    raspail -> vavin
+    denfert_rochereau -> raspail
+    mouton_duvernet -> denfert_rochereau
+    alesia -> mouton_duvernet
+    porte_d_orleans_general_leclerc -> alesia
+    mairie_de_montrouge -> porte_d_orleans_general_leclerc
+    
+    // Line 5
+    edge [color="#FF5A00"];
+    // bobigny_pablo_picasso -> place_d_italie
+    bobigny_pablo_picasso -> bobigny_pantin_raymond_queneau
+    bobigny_pantin_raymond_queneau -> eglise_de_pantin
+    eglise_de_pantin -> hoche
+    hoche -> porte_de_pantin
+    porte_de_pantin -> ourcq
+    ourcq -> laumiere
+    laumiere -> jaures
+    jaures -> stalingrad
+    stalingrad -> gare_du_nord
+    gare_du_nord -> gare_de_l_est_verdun
+    gare_de_l_est_verdun -> jacques_bonsergent
+    jacques_bonsergent -> republique
+    republique -> oberkampf
+    oberkampf -> richard_lenoir
+    richard_lenoir -> breguet_sabin
+    breguet_sabin -> bastille
+    bastille -> quai_de_la_rapee
+    quai_de_la_rapee -> gare_d_austerlitz
+    gare_d_austerlitz -> saint_marcel
+    saint_marcel -> campo_formio
+    campo_formio -> place_d_italie
+    // place_d_italie -> bobigny_pablo_picasso
+    bobigny_pantin_raymond_queneau -> bobigny_pablo_picasso
+    eglise_de_pantin -> bobigny_pantin_raymond_queneau
+    hoche -> eglise_de_pantin
+    porte_de_pantin -> hoche
+    ourcq -> porte_de_pantin
+    laumiere -> ourcq
+    jaures -> laumiere
+    stalingrad -> jaures
+    gare_du_nord -> stalingrad
+    gare_de_l_est_verdun -> gare_du_nord
+    jacques_bonsergent -> gare_de_l_est_verdun
+    republique -> jacques_bonsergent
+    oberkampf -> republique
+    richard_lenoir -> oberkampf
+    breguet_sabin -> richard_lenoir
+    bastille -> breguet_sabin
+    quai_de_la_rapee -> bastille
+    gare_d_austerlitz -> quai_de_la_rapee
+    saint_marcel -> gare_d_austerlitz
+    campo_formio -> saint_marcel
+    place_d_italie -> campo_formio
+
+    // Line 6
+    edge [color="#82DC73"];
+    // nation -> charles_de_gaulle_etoile
+    nation -> picpus
+    picpus -> bel_air
+    bel_air -> daumesnil_felix_eboue
+    daumesnil_felix_eboue -> dugommier
+    dugommier -> bercy
+    bercy -> quai_de_la_gare
+    quai_de_la_gare -> chevaleret
+    chevaleret -> nationale
+    nationale -> place_d_italie
+    place_d_italie -> corvisart
+    corvisart -> glaciere
+    glaciere -> saint_jacques
+    saint_jacques -> denfert_rochereau
+    denfert_rochereau -> raspail
+    raspail -> edgar_quinet
+    edgar_quinet -> montparnasse_bienvenue
+    montparnasse_bienvenue -> pasteur
+    pasteur -> sevres_lecourbe
+    sevres_lecourbe -> cambronne
+    cambronne -> la_motte_picquet_grenelle
+    la_motte_picquet_grenelle -> dupleix
+    dupleix -> bir_hakeim_grenelle
+    bir_hakeim_grenelle -> passy
+    passy -> trocadero
+    trocadero -> boissiere
+    boissiere -> kleber
+    kleber -> charles_de_gaulle_etoile
+    // charles_de_gaulle_etoile -> nation
+    picpus -> nation
+    bel_air -> picpus
+    daumesnil_felix_eboue -> bel_air
+    dugommier -> daumesnil_felix_eboue
+    bercy -> dugommier
+    quai_de_la_gare -> bercy
+    chevaleret -> quai_de_la_gare
+    nationale -> chevaleret
+    place_d_italie -> nationale
+    corvisart -> place_d_italie
+    glaciere -> corvisart
+    saint_jacques -> glaciere
+    denfert_rochereau -> saint_jacques
+    raspail -> denfert_rochereau
+    edgar_quinet -> raspail
+    montparnasse_bienvenue -> edgar_quinet
+    pasteur -> montparnasse_bienvenue
+    sevres_lecourbe -> pasteur
+    cambronne -> sevres_lecourbe
+    la_motte_picquet_grenelle -> cambronne
+    dupleix -> la_motte_picquet_grenelle
+    bir_hakeim_grenelle -> dupleix
+    passy -> bir_hakeim_grenelle
+    trocadero -> passy
+    boissiere -> trocadero
+    kleber -> boissiere
+    charles_de_gaulle_etoile -> kleber
+
+    // Line 7
+    edge [color="#FF82B4"];
+    // la_courneuve_8_mai_1945 -> maison_blanche
+    la_courneuve_8_mai_1945 -> fort_d_aubervilliers
+    fort_d_aubervilliers -> aubervilliers_pantin_4_chemins
+    aubervilliers_pantin_4_chemins -> porte_de_la_villette
+    porte_de_la_villette -> corentin_cariou
+    corentin_cariou -> crimee
+    crimee -> riquet
+    riquet -> stalingrad
+    stalingrad -> louis_blanc
+    louis_blanc -> chateau_landon
+    chateau_landon -> gare_de_l_est_verdun
+    gare_de_l_est_verdun -> poissonniere
+    poissonniere -> cadet
+    cadet -> le_peletier
+    le_peletier -> chaussee_d_antin_la_fayette
+    chaussee_d_antin_la_fayette -> opera
+    opera -> pyramides
+    pyramides -> palais_royal_musee_du_louvre
+    palais_royal_musee_du_louvre -> pont_neuf
+    pont_neuf -> chatelet
+    chatelet -> pont_marie_cite_des_arts
+    pont_marie_cite_des_arts -> sully_morland
+    sully_morland -> jussieu
+    jussieu -> place_monge_jardin_des_plantes
+    place_monge_jardin_des_plantes -> censier_daubenton
+    censier_daubenton -> les_gobelins
+    les_gobelins -> place_d_italie
+    place_d_italie -> tolbiac
+    tolbiac -> maison_blanche
+    // maison_blanche -> la_courneuve_8_mai_1945
+    fort_d_aubervilliers -> la_courneuve_8_mai_1945
+    aubervilliers_pantin_4_chemins -> fort_d_aubervilliers
+    porte_de_la_villette -> aubervilliers_pantin_4_chemins
+    corentin_cariou -> porte_de_la_villette
+    crimee -> corentin_cariou
+    riquet -> crimee
+    stalingrad -> riquet
+    louis_blanc -> stalingrad
+    chateau_landon -> louis_blanc
+    gare_de_l_est_verdun -> chateau_landon
+    poissonniere -> gare_de_l_est_verdun
+    cadet -> poissonniere
+    le_peletier -> cadet
+    chaussee_d_antin_la_fayette -> le_peletier
+    opera -> chaussee_d_antin_la_fayette
+    pyramides -> opera
+    palais_royal_musee_du_louvre -> pyramides
+    pont_neuf -> palais_royal_musee_du_louvre
+    chatelet -> pont_neuf
+    pont_marie_cite_des_arts -> chatelet
+    sully_morland -> pont_marie_cite_des_arts
+    jussieu -> sully_morland
+    place_monge_jardin_des_plantes -> jussieu
+    censier_daubenton -> place_monge_jardin_des_plantes
+    les_gobelins -> censier_daubenton
+    place_d_italie -> les_gobelins
+    tolbiac -> place_d_italie
+    maison_blanche -> tolbiac
+
+    // maison_blanche -> mairie_d_ivry
+    maison_blanche -> porte_d_italie
+    porte_d_italie -> porte_de_choisy
+    porte_de_choisy -> porte_d_ivry
+    porte_d_ivry -> pierre_et_marie_curie
+    pierre_et_marie_curie -> mairie_d_ivry
+    // mairie_d_ivry -> maison_blanche
+    porte_d_italie -> maison_blanche
+    porte_de_choisy -> porte_d_italie
+    porte_d_ivry -> porte_de_choisy
+    pierre_et_marie_curie -> porte_d_ivry
+    mairie_d_ivry -> pierre_et_marie_curie
+
+    // maison_blanche -> villejuif_louis_aragon
+    maison_blanche -> le_kremlin_bicetre
+    le_kremlin_bicetre -> villejuif_leo_lagrange
+    villejuif_leo_lagrange -> villejuif_paul_vaillant_couturier_hopital_paul_brousse
+    villejuif_paul_vaillant_couturier_hopital_paul_brousse -> villejuif_louis_aragon
+    // villejuif_louis_aragon -> maison_blanche
+    le_kremlin_bicetre -> maison_blanche
+    villejuif_leo_lagrange -> le_kremlin_bicetre
+    villejuif_paul_vaillant_couturier_hopital_paul_brousse -> villejuif_leo_lagrange
+    villejuif_louis_aragon -> villejuif_paul_vaillant_couturier_hopital_paul_brousse
+
+
+    // Line 7b
+    edge [color="#82DC73"];
+    // louis_blanc -> botzaris
+    louis_blanc -> jaures
+    jaures -> bolivar
+    bolivar -> buttes_chaumont
+    buttes_chaumont -> botzaris
+    // botzaris -> louis_blanc
+    jaures -> louis_blanc
+    bolivar -> jaures
+    buttes_chaumont -> bolivar
+    botzaris -> buttes_chaumont
+
+    // botzaris -> botzaris
+    botzaris -> danube
+    danube -> pre_saint_gervais
+    pre_saint_gervais -> place_des_fetes
+    place_des_fetes -> botzaris
+    // botzaris -> botzaris
+    danube -> botzaris
+    pre_saint_gervais -> danube
+    place_des_fetes -> pre_saint_gervais
+    botzaris -> place_des_fetes
+
+    // Line 8
+    edge [color="#D282BE"];
+    // balard -> pointe_du_lac
+    balard -> lourmel
+    lourmel -> boucicaut
+    boucicaut -> felix_faure
+    felix_faure -> commerce
+    commerce -> la_motte_picquet_grenelle
+    la_motte_picquet_grenelle -> ecole_militaire
+    ecole_militaire -> la_tour_maubourg
+    la_tour_maubourg -> invalides
+    invalides -> concorde
+    concorde -> madeleine
+    madeleine -> opera
+    opera -> richelieu_drouot
+    richelieu_drouot -> grands_boulevards
+    grands_boulevards -> bonne_nouvelle
+    bonne_nouvelle -> strasbourg_saint_denis
+    strasbourg_saint_denis -> republique
+    republique -> filles_du_calvaire
+    filles_du_calvaire -> saint_sebastien_froissart
+    saint_sebastien_froissart -> chemin_vert
+    chemin_vert -> bastille
+    bastille -> ledru_rollin
+    ledru_rollin -> faidherbe_chaligny
+    faidherbe_chaligny -> reuilly_diderot
+    reuilly_diderot -> montgallet
+    montgallet -> daumesnil_felix_eboue
+    daumesnil_felix_eboue -> michel_bizot
+    michel_bizot -> porte_doree
+    porte_doree -> porte_de_charenton
+    porte_de_charenton -> liberte
+    liberte -> charenton_ecoles
+    charenton_ecoles -> ecole_veterinaire_de_maisons_alfort
+    ecole_veterinaire_de_maisons_alfort -> maisons_alfort_stade
+    maisons_alfort_stade -> maisons_alfort_les_juilliottes
+    maisons_alfort_les_juilliottes -> creteil_l_echat_hopital_henri_mondor
+    creteil_l_echat_hopital_henri_mondor -> creteil_universite
+    creteil_universite -> creteil_prefecture_hotel_de_ville
+    creteil_prefecture_hotel_de_ville -> pointe_du_lac
+    // pointe_du_lac -> balard
+    lourmel -> balard
+    boucicaut -> lourmel
+    felix_faure -> boucicaut
+    commerce -> felix_faure
+    la_motte_picquet_grenelle -> commerce
+    ecole_militaire -> la_motte_picquet_grenelle
+    la_tour_maubourg -> ecole_militaire
+    invalides -> la_tour_maubourg
+    concorde -> invalides
+    madeleine -> concorde
+    opera -> madeleine
+    richelieu_drouot -> opera
+    grands_boulevards -> richelieu_drouot
+    bonne_nouvelle -> grands_boulevards
+    strasbourg_saint_denis -> bonne_nouvelle
+    republique -> strasbourg_saint_denis
+    filles_du_calvaire -> republique
+    saint_sebastien_froissart -> filles_du_calvaire
+    chemin_vert -> saint_sebastien_froissart
+    bastille -> chemin_vert
+    ledru_rollin -> bastille
+    faidherbe_chaligny -> ledru_rollin
+    reuilly_diderot -> faidherbe_chaligny
+    montgallet -> reuilly_diderot
+    daumesnil_felix_eboue -> montgallet
+    michel_bizot -> daumesnil_felix_eboue
+    porte_doree -> michel_bizot
+    porte_de_charenton -> porte_doree
+    liberte -> porte_de_charenton
+    charenton_ecoles -> liberte
+    ecole_veterinaire_de_maisons_alfort -> charenton_ecoles
+    maisons_alfort_stade -> ecole_veterinaire_de_maisons_alfort
+    maisons_alfort_les_juilliottes -> maisons_alfort_stade
+    creteil_l_echat_hopital_henri_mondor -> maisons_alfort_les_juilliottes
+    creteil_universite -> creteil_l_echat_hopital_henri_mondor
+    creteil_prefecture_hotel_de_ville -> creteil_universite
+    pointe_du_lac -> creteil_prefecture_hotel_de_ville
+
+    // Line 9
+    edge [color="#D2D200"];
+    // pont_de_sevres -> mairie_de_montreuil
+    pont_de_sevres -> billancourt
+    billancourt -> marcel_sembat
+    marcel_sembat -> porte_de_saint_cloud
+    porte_de_saint_cloud -> exelmans
+    exelmans -> michel_ange_molitor
+    michel_ange_molitor -> michel_ange_auteuil
+    michel_ange_auteuil -> jasmin
+    jasmin -> ranelagh
+    ranelagh -> la_muette
+    la_muette -> rue_de_la_pompe_avenue_georges_mandel
+    rue_de_la_pompe_avenue_georges_mandel -> trocadero
+    trocadero -> iena
+    iena -> alma_marceau
+    alma_marceau -> franklin_roosevelt
+    franklin_roosevelt -> saint_philippe_du_roule
+    saint_philippe_du_roule -> miromesnil
+    miromesnil -> saint_augustin
+    saint_augustin -> havre_caumartin
+    havre_caumartin -> chaussee_d_antin_la_fayette
+    chaussee_d_antin_la_fayette -> richelieu_drouot
+    richelieu_drouot -> grands_boulevards
+    grands_boulevards -> bonne_nouvelle
+    bonne_nouvelle -> strasbourg_saint_denis
+    strasbourg_saint_denis -> republique
+    republique -> oberkampf
+    oberkampf -> saint_ambroise
+    saint_ambroise -> voltaire_leon_blum
+    voltaire_leon_blum -> charonne
+    charonne -> rue_des_boulets
+    rue_des_boulets -> nation
+    nation -> buzenval
+    buzenval -> maraichers
+    maraichers -> porte_de_montreuil
+    porte_de_montreuil -> robespierre
+    robespierre -> croix_de_chavaux_jacques_duclos
+    croix_de_chavaux_jacques_duclos -> mairie_de_montreuil
+    // mairie_de_montreuil -> pont_de_sevres
+    billancourt -> pont_de_sevres
+    marcel_sembat -> billancourt
+    porte_de_saint_cloud -> marcel_sembat
+    exelmans -> porte_de_saint_cloud
+    michel_ange_molitor -> exelmans
+    michel_ange_auteuil -> michel_ange_molitor
+    jasmin -> michel_ange_auteuil
+    ranelagh -> jasmin
+    la_muette -> ranelagh
+    rue_de_la_pompe_avenue_georges_mandel -> la_muette
+    trocadero -> rue_de_la_pompe_avenue_georges_mandel
+    iena -> trocadero
+    alma_marceau -> iena
+    franklin_roosevelt -> alma_marceau
+    saint_philippe_du_roule -> franklin_roosevelt
+    miromesnil -> saint_philippe_du_roule
+    saint_augustin -> miromesnil
+    havre_caumartin -> saint_augustin
+    chaussee_d_antin_la_fayette -> havre_caumartin
+    richelieu_drouot -> chaussee_d_antin_la_fayette
+    grands_boulevards -> richelieu_drouot
+    bonne_nouvelle -> grands_boulevards
+    strasbourg_saint_denis -> bonne_nouvelle
+    republique -> strasbourg_saint_denis
+    oberkampf -> republique
+    saint_ambroise -> oberkampf
+    voltaire_leon_blum -> saint_ambroise
+    charonne -> voltaire_leon_blum
+    rue_des_boulets -> charonne
+    nation -> rue_des_boulets
+    buzenval -> nation
+    maraichers -> buzenval
+    porte_de_montreuil -> maraichers
+    robespierre -> porte_de_montreuil
+    croix_de_chavaux_jacques_duclos -> robespierre
+    mairie_de_montreuil -> croix_de_chavaux_jacques_duclos
+
+    // Line 10
+    edge [color="#DC9600"];
+    // mirabeau -> gare_d_austerlitz
+    mirabeau -> javel_andre_citroen
+    javel_andre_citroen -> charles_michels
+    charles_michels -> avenue_emile_zola
+    avenue_emile_zola -> la_motte_picquet_grenelle
+    la_motte_picquet_grenelle -> segur
+    segur -> duroc
+    duroc -> vaneau
+    vaneau -> sevres_babylone
+    sevres_babylone -> mabillon
+    mabillon -> odeon
+    odeon -> cluny_la_sorbonne
+    cluny_la_sorbonne -> maubert_mutualite
+    maubert_mutualite -> cardinal_lemoine
+    cardinal_lemoine -> jussieu
+    jussieu -> gare_d_austerlitz
+    // gare_d_austerlitz -> mirabeau
+    javel_andre_citroen -> mirabeau
+    charles_michels -> javel_andre_citroen
+    avenue_emile_zola -> charles_michels
+    la_motte_picquet_grenelle -> avenue_emile_zola
+    segur -> la_motte_picquet_grenelle
+    duroc -> segur
+    vaneau -> duroc
+    sevres_babylone -> vaneau
+    mabillon -> sevres_babylone
+    odeon -> mabillon
+    cluny_la_sorbonne -> odeon
+    maubert_mutualite -> cluny_la_sorbonne
+    cardinal_lemoine -> maubert_mutualite
+    jussieu -> cardinal_lemoine
+    gare_d_austerlitz -> jussieu
+
+    // mirabeau -> mirabeau
+    mirabeau -> eglise_d_auteuil
+    eglise_d_auteuil -> michel_ange_auteuil
+    michel_ange_auteuil -> porte_d_auteuil
+    porte_d_auteuil -> boulogne_jean_jaures
+    boulogne_jean_jaures -> michel_ange_molitor
+    michel_ange_molitor -> chardon_lagache
+    chardon_lagache -> mirabeau
+    // mirabeau -> mirabeau
+    eglise_d_auteuil -> mirabeau
+    michel_ange_auteuil -> eglise_d_auteuil
+    porte_d_auteuil -> michel_ange_auteuil
+    boulogne_jean_jaures -> porte_d_auteuil
+    michel_ange_molitor -> boulogne_jean_jaures
+    chardon_lagache -> michel_ange_molitor
+    mirabeau -> chardon_lagache
+
+    boulogne_jean_jaures -> boulogne_pont_de_saint_cloud
+    boulogne_pont_de_saint_cloud -> boulogne_jean_jaures
+
+    // Line 11
+    edge [color="#6E491E"];
+    // mairie_des_lilas -> chatelet
+    mairie_des_lilas -> porte_des_lilas
+    porte_des_lilas -> telegraphe
+    telegraphe -> place_des_fetes
+    place_des_fetes -> jourdain
+    jourdain -> pyrenees
+    pyrenees -> belleville
+    belleville -> goncourt_hopital_saint_louis
+    goncourt_hopital_saint_louis -> republique
+    republique -> arts_et_metiers
+    arts_et_metiers -> rambuteau
+    rambuteau -> hotel_de_ville
+    hotel_de_ville -> chatelet
+    // chatelet -> mairie_des_lilas
+    porte_des_lilas -> mairie_des_lilas
+    telegraphe -> porte_des_lilas
+    place_des_fetes -> telegraphe
+    jourdain -> place_des_fetes
+    pyrenees -> jourdain
+    belleville -> pyrenees
+    goncourt_hopital_saint_louis -> belleville
+    republique -> goncourt_hopital_saint_louis
+    arts_et_metiers -> republique
+    rambuteau -> arts_et_metiers
+    hotel_de_ville -> rambuteau
+    chatelet -> hotel_de_ville
+
+    // Line 12
+    edge [color="#00643C"];
+    // mairie_d_issy -> front_populaire
+    mairie_d_issy -> corentin_celton
+    corentin_celton -> porte_de_versailles
+    porte_de_versailles -> convention
+    convention -> vaugirard_adolphe_cherioux
+    vaugirard_adolphe_cherioux -> volontaires
+    volontaires -> pasteur
+    pasteur -> falguiere
+    falguiere -> montparnasse_bienvenue
+    montparnasse_bienvenue -> notre_dame_des_champs
+    notre_dame_des_champs -> rennes
+    rennes -> sevres_babylone
+    sevres_babylone -> rue_du_bac
+    rue_du_bac -> solferino
+    solferino -> assemblee_nationale
+    assemblee_nationale -> concorde
+    concorde -> madeleine
+    madeleine -> saint_lazare
+    saint_lazare -> trinite_d_estienne_d_orves
+    trinite_d_estienne_d_orves -> notre_dame_de_lorette
+    notre_dame_de_lorette -> saint_georges
+    saint_georges -> pigalle
+    pigalle -> abbesses
+    abbesses -> lamarck_caulaincourt
+    lamarck_caulaincourt -> jules_joffrin
+    jules_joffrin -> marcadet_poissonniers
+    marcadet_poissonniers -> marx_dormoy
+    marx_dormoy -> porte_de_la_chapelle
+    porte_de_la_chapelle -> front_populaire
+    // mairie_d_issy -> front_populaire
+    corentin_celton -> mairie_d_issy
+    porte_de_versailles -> corentin_celton
+    convention -> porte_de_versailles
+    vaugirard_adolphe_cherioux -> convention
+    volontaires -> vaugirard_adolphe_cherioux
+    pasteur -> volontaires
+    falguiere -> pasteur
+    montparnasse_bienvenue -> falguiere
+    notre_dame_des_champs -> montparnasse_bienvenue
+    rennes -> notre_dame_des_champs
+    sevres_babylone -> rennes
+    rue_du_bac -> sevres_babylone
+    solferino -> rue_du_bac
+    assemblee_nationale -> solferino
+    concorde -> assemblee_nationale
+    madeleine -> concorde
+    saint_lazare -> madeleine
+    trinite_d_estienne_d_orves -> saint_lazare
+    notre_dame_de_lorette -> trinite_d_estienne_d_orves
+    saint_georges -> notre_dame_de_lorette
+    pigalle -> saint_georges
+    abbesses -> pigalle
+    lamarck_caulaincourt -> abbesses
+    jules_joffrin -> lamarck_caulaincourt
+    marcadet_poissonniers -> jules_joffrin
+    marx_dormoy -> marcadet_poissonniers
+    porte_de_la_chapelle -> marx_dormoy
+    front_populaire -> porte_de_la_chapelle
+
+    // Line 13
+    edge [color="#82C8E6"];
+    // chatillon_montrouge -> la_fourche
+    chatillon_montrouge -> malakoff_rue_etienne_dolet
+    malakoff_rue_etienne_dolet -> malakoff_plateau_de_vanves
+    malakoff_plateau_de_vanves -> porte_de_vanves
+    porte_de_vanves -> plaisance
+    plaisance -> pernety
+    pernety -> gaite
+    gaite -> montparnasse_bienvenue
+    montparnasse_bienvenue -> duroc
+    duroc -> saint_francois_xavier
+    saint_francois_xavier -> varenne
+    varenne -> invalides
+    invalides -> champs_elysees_clemenceau
+    champs_elysees_clemenceau -> miromesnil
+    miromesnil -> saint_lazare
+    saint_lazare -> liege
+    liege -> place_de_clichy
+    place_de_clichy -> la_fourche
+    // chatillon_montrouge -> la_fourche
+    malakoff_rue_etienne_dolet -> chatillon_montrouge
+    malakoff_plateau_de_vanves -> malakoff_rue_etienne_dolet
+    porte_de_vanves -> malakoff_plateau_de_vanves
+    plaisance -> porte_de_vanves
+    pernety -> plaisance
+    gaite -> pernety
+    montparnasse_bienvenue -> gaite
+    duroc -> montparnasse_bienvenue
+    saint_francois_xavier -> duroc
+    varenne -> saint_francois_xavier
+    invalides -> varenne
+    champs_elysees_clemenceau -> invalides
+    miromesnil -> champs_elysees_clemenceau
+    saint_lazare -> miromesnil
+    liege -> saint_lazare
+    place_de_clichy -> liege
+    la_fourche -> place_de_clichy
+
+    // la_fourche -> saint_denis_universite
+    la_fourche -> guy_moquet
+    guy_moquet -> porte_de_saint_ouen
+    porte_de_saint_ouen -> garibaldi
+    garibaldi -> mairie_de_saint_ouen
+    mairie_de_saint_ouen -> carrefour_pleyel
+    carrefour_pleyel -> saint_denis___porte_de_paris
+    saint_denis___porte_de_paris -> basilique_de_saint_denis
+    basilique_de_saint_denis -> saint_denis_universite
+    // saint_denis_universite -> la_fourche
+    guy_moquet -> la_fourche
+    porte_de_saint_ouen -> guy_moquet
+    garibaldi -> porte_de_saint_ouen
+    mairie_de_saint_ouen -> garibaldi
+    carrefour_pleyel -> mairie_de_saint_ouen
+    saint_denis___porte_de_paris -> carrefour_pleyel
+    basilique_de_saint_denis -> saint_denis___porte_de_paris
+    saint_denis_universite -> basilique_de_saint_denis
+
+    // la_fourche -> asnieres_gennevilliers_les_courtilles
+    la_fourche -> brochant
+    brochant -> porte_de_clichy
+    porte_de_clichy -> mairie_de_clichy
+    mairie_de_clichy -> gabriel_peri
+    gabriel_peri -> les_agnettes
+    les_agnettes -> asnieres_gennevilliers_les_courtilles
+    // asnieres_gennevilliers_les_courtilles -> la_fourche
+    brochant -> la_fourche
+    porte_de_clichy -> brochant
+    mairie_de_clichy -> porte_de_clichy
+    gabriel_peri -> mairie_de_clichy
+    les_agnettes -> gabriel_peri
+    asnieres_gennevilliers_les_courtilles -> les_agnettes
+
+    // Line 14
+    edge [color="#FFBE00"];
+    // saint_lazare -> olympiades
+    saint_lazare -> madeleine
+    madeleine -> pyramides
+    pyramides -> chatelet
+    chatelet -> gare_de_lyon
+    gare_de_lyon -> bercy
+    bercy -> cour_saint_emilion
+    cour_saint_emilion -> bibliotheque_francois_mitterrand
+    bibliotheque_francois_mitterrand -> olympiades
+    // olympiades -> saint_lazare
+    madeleine -> saint_lazare
+    pyramides -> madeleine
+    chatelet -> pyramides
+    gare_de_lyon -> chatelet
+    bercy -> gare_de_lyon
+    cour_saint_emilion -> bercy
+    bibliotheque_francois_mitterrand -> cour_saint_emilion
+    olympiades -> bibliotheque_francois_mitterrand
+
+}
