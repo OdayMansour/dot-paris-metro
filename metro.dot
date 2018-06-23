@@ -1,7 +1,7 @@
 digraph Paris_Metro {
 
     edge [penwidth="2"]
-    node [shape="circle", fixedsize="true", width="0.15", style="filled", fillcolor="black"]
+    node [shape="circle", fixedsize="true", width="0.3", style="filled", fillcolor="black"]
 
     chateau_de_vincennes [label="", name="Chateau de Vincennes", x="2.440439978057246", y="48.844456394569114", id="2035-2154"]
     berault [label="", name="Berault", x="2.429205166348", y="48.84547070758355", id="2067-2116"]
@@ -386,6 +386,36 @@ digraph Paris_Metro {
     cour_saint_emilion [label="", name="Cour Saint-Emilion", x="2.386632402066985", y="48.83333855925167", id="1166828-1166829"]
     bibliotheque_francois_mitterrand [label="", name="Bibliotheque-Francois Mitterrand", x="2.375748144341913", y="48.829990281683564", id="1166826-1166827"]
     olympiades [label="", name="Olympiades", x="2.368032647756258", y="48.82727083603918", id="1166824-1166825"]
+
+    subgraph cluster_lyon_austerlitz {
+        gare_de_lyon
+        gare_d_austerlitz
+    }
+
+    subgraph cluster_augustin_lazare {
+        saint_augustin
+        saint_lazare
+    }
+
+    subgraph cluster_chapelle_nord {
+        la_chapelle
+        gare_du_nord
+    }
+
+    subgraph cluster_opera_havre {
+        opera
+        havre_caumartin
+    }
+
+    subgraph cluster_chatelet_halles {
+        chatelet
+        les_halles
+    }
+
+    subgraph cluster_cluny_michel {
+        cluny_la_sorbonne
+        saint_michel
+    }
 
     // Line 1
     edge [color="#FFBE00"];
@@ -1192,7 +1222,7 @@ digraph Paris_Metro {
     asnieres_gennevilliers_les_courtilles -> les_agnettes
 
     // Line 14
-    edge [color="#FFBE00"];
+    edge [color="#612B9B"];
     // saint_lazare -> olympiades
     saint_lazare -> madeleine
     madeleine -> pyramides
