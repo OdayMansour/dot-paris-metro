@@ -821,11 +821,6 @@ digraph Paris_Metro {
     botzaris -> buttes_chaumont
 
     // botzaris -> botzaris
-    botzaris -> danube
-    danube -> pre_saint_gervais
-    pre_saint_gervais -> place_des_fetes
-    place_des_fetes -> botzaris
-    // botzaris -> botzaris
     danube -> botzaris
     pre_saint_gervais -> danube
     place_des_fetes -> pre_saint_gervais
@@ -989,8 +984,7 @@ digraph Paris_Metro {
 
     // Line 10
     edge [color="#DC9600"];
-    // mirabeau -> gare_d_austerlitz
-    mirabeau -> javel_andre_citroen
+    // javel_andre_citroen -> gare_d_austerlitz
     javel_andre_citroen -> charles_michels
     charles_michels -> avenue_emile_zola
     avenue_emile_zola -> la_motte_picquet_grenelle
@@ -1005,8 +999,7 @@ digraph Paris_Metro {
     maubert_mutualite -> cardinal_lemoine
     cardinal_lemoine -> jussieu
     jussieu -> gare_d_austerlitz
-    // gare_d_austerlitz -> mirabeau
-    javel_andre_citroen -> mirabeau
+    // gare_d_austerlitz -> javel_andre_citroen
     charles_michels -> javel_andre_citroen
     avenue_emile_zola -> charles_michels
     la_motte_picquet_grenelle -> avenue_emile_zola
@@ -1022,22 +1015,15 @@ digraph Paris_Metro {
     jussieu -> cardinal_lemoine
     gare_d_austerlitz -> jussieu
 
-    // mirabeau -> mirabeau
-    mirabeau -> eglise_d_auteuil
+    // javel_andre_citroen -> javel_andre_citroen
+    javel_andre_citroen -> eglise_d_auteuil
     eglise_d_auteuil -> michel_ange_auteuil
     michel_ange_auteuil -> porte_d_auteuil
     porte_d_auteuil -> boulogne_jean_jaures
     boulogne_jean_jaures -> michel_ange_molitor
     michel_ange_molitor -> chardon_lagache
     chardon_lagache -> mirabeau
-    // mirabeau -> mirabeau
-    eglise_d_auteuil -> mirabeau
-    michel_ange_auteuil -> eglise_d_auteuil
-    porte_d_auteuil -> michel_ange_auteuil
-    boulogne_jean_jaures -> porte_d_auteuil
-    michel_ange_molitor -> boulogne_jean_jaures
-    chardon_lagache -> michel_ange_molitor
-    mirabeau -> chardon_lagache
+    mirabeau -> javel_andre_citroen
 
     boulogne_jean_jaures -> boulogne_pont_de_saint_cloud
     boulogne_pont_de_saint_cloud -> boulogne_jean_jaures
